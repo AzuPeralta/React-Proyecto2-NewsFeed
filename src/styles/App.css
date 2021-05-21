@@ -1,0 +1,27 @@
+
+@import './header.css';
+@import './menu.css';
+@import './news.css';
+@import './featured-card.css';
+@import './card.css';
+@import './button.css';
+
+
+
+/* Colors
+RED - #BE030A 
+BLUE - #005D77 */
+
+
+body{
+    background-color:#fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+    padding:0px;
+    overflow-x: hidden;
+}

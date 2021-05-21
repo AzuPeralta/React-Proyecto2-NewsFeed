@@ -1,0 +1,52 @@
+/* Colors
+RED - #BE030A 
+BLUE - #005D77 */
+
+.menu{
+    margin-top:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index:40;
+    transform: rotate(-90deg);
+    transform-origin: 45vh 45vh; */
+}
+
+.menu a{
+    color:black;
+    padding:0px 30px;
+    border-right: 1px solid rgba(21,21,21,0.1);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    text-decoration:none;
+    transition:color 0.4s ease;
+}
+
+.menu a:last-child{
+    border-right: 0px;
+}
+
+.menu a:hover{
+    color:#BE030A;
+    transition:color 0.4s ease;
+}
+
+
+
+
+
+@media (max-width: 768px){
+
+    .menu{
+        align-self: flex-start !important;
+        flex-wrap: wrap;
+        padding-left: 5px;
+        margin:15px 0px 5px 0px;
+    }
+    
+    .menu a{
+        padding:5px 10px;
+        font-size:14px;
+    }
+}

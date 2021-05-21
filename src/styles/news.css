@@ -1,0 +1,17 @@
+
+
+.news-container{
+    width:100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-bottom:100px;
+}
+
+.news-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+  
